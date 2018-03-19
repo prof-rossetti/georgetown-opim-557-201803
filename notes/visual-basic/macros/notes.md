@@ -10,6 +10,8 @@
 
 ![A screenshot of the "Code" section of the "Developer" menu, where the macro-related buttons exist.](recording-a-macro.png)
 
+See also: [Getting Started with VBA - Recording a Macro](https://msdn.microsoft.com/en-us/vba/office-shared-vba/articles/getting-started-with-vba-in-office#to-record-a-macro).
+
 ### Executing Macros
 
 Execute a macro manually by selecting it from the "Developer" > "Macros" menu and pressing "Run". 

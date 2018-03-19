@@ -6,7 +6,7 @@
   + [Review of Syllabus and Course Operations](/syllabus-20180318.pdf)
   + Application Demonstrations
   + Visual Basic Programming:
-    + [Environment Setup](/notes/visual-basic/setup/notes.md)
+    + [Getting Started](/notes/visual-basic/getting-started/notes.md)
 
 ## B-Side
 
