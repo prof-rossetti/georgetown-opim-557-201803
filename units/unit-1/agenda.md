@@ -7,6 +7,7 @@
   + Application Demonstrations
   + Visual Basic Programming:
     + [Getting Started](/notes/visual-basic/getting-started/notes.md)
+    + [Macros](/notes/visual-basic/macros/notes.md)
     + [Comments](/notes/visual-basic/comments/notes.md)
   + [Industry Insights Assignment](/assignments/industry-insights/assignment.md)
     
