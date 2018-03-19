@@ -7,6 +7,7 @@
   + Application Demonstrations
   + Visual Basic Programming:
     + [Getting Started](/notes/visual-basic/getting-started/notes.md)
+    + [Comments](/notes/visual-basic/comments/notes.md)
 
 ## B-Side
 

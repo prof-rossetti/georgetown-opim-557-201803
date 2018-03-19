@@ -18,7 +18,7 @@ Execute a macro manually by selecting it from the "Developer" > "Macros" menu an
 
 ![A screenshot of the "Macros" window.](playing-a-macro.png)
 
-Or execite it programmatically in VBA by using the keyword `Call` followed by the name of the macro. For example:
+Or execite it programmatically in VBA by using the `Call` keyword followed by the name of the macro. For example:
 
 ```vb
 Call Macro1
