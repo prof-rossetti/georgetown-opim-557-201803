@@ -20,6 +20,6 @@ Execute a macro manually by selecting it from the "Developer" > "Macros" menu an
 
 Or execite it programmatically in VBA by using the keyword `Call` followed by the name of the macro. For example:
 
-```vba
+```vb
 Call Macro1
 ```

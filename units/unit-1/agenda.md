@@ -15,8 +15,7 @@
     + [Workbooks](/notes/excel-objects/workbooks/notes.md)
     + [Worksheets](/notes/excel-objects/worksheets/notes.md)
     + [Ranges](/notes/excel-objects/ranges/notes.md)
-    + [Cells](/notes/excel-objects/cells/notes.md)
-  + ActiveX Controls:
+  + [ActiveX Controls](/notes/active-x-controls/notes.md):
     + [Command Buttons](/notes/active-x-controls/command-buttons/notes.md)
   + Visual Basic Programming:
     + [Message Boxes](/notes/visual-basic/message-boxes/notes.md)
