@@ -4,7 +4,7 @@ Popular ActiveX controls inside MS Excel include:
 
 name | description
 --- | ---
-[`CommandButton`](activex-controls/command-button/notes.md) | A clickable button.
+[`CommandButton`](command-buttons/notes.md) | A clickable button.
 `ToggleButton` | A button which maintains either a pressed or unpressed state (like a light switch).
 `ComboBox` (drop-down) | A drop-down menu which allows the user to choose one option from a provided list.
 `ListBox` | A picker menu which allows the user to choose one option from a provided list.
