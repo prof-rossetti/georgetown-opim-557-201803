@@ -20,7 +20,7 @@ term | description | example
 **Information** | Data that has been organized or interpreted to provide meaning and value. | A chart of datapoints over time depicting an upward trend in sales.
 **Knowledge** | Data and/or Information that has been organized, processed and interpreted to convey understanding, experience, accumulated learning, expertise, etc. | An informed decision to raise marketing expenditure levels.
 
-## Information System Classifications
+## Classifications
 
 Information Systems are classified
  based on
@@ -34,9 +34,9 @@ system type | general functions |  specific example(s)
 --- | --- | ---
 **Operational** (e.g. Transaction Processing Systems (TPS))| Sends and receives data. | An ATM.
 **Managerial** (e.g. Business Intelligence (BI), Management Information Systems (MIS), and some Decision Support Systems (DSS)) | Processes and synthesizes data into information. | A system that produces data dashboards.
-**Executive** (e.g. some Decision Support Systems (DSS), Expert Systems, and Machine Learning) | Processes and synthesizes information into knowledge; emulates human decision-making and judgement processes. | A university's Student Housing Selection System, IBM Watson, Tesla Model S
+**Executive** (e.g. some Decision Support Systems (DSS), Expert Systems, and Machine Learning) | Processes and synthesizes information into knowledge; emulates human decision-making and judgement processes. | A university's Student Housing Selection System, IBM Watson, Tesla Model S, Netflix and Pandora Recommendation Systems.
 
-## Information System Components
+## Components
 
 Information systems may or may not leverage technology. Examples of non-tech information systems include: a doctor's paper-based patient records system, a deli's paper-based ordering system, and a [tin-can telephone](https://thumbs.dreamstime.com/z/tin-can-telephones-968914.jpg) system.
  A computer-based information system uses
