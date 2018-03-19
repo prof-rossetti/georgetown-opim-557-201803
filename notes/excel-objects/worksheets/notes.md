@@ -2,14 +2,16 @@
 
 ## Worksheets
 
-The [`Worksheet`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-object-excel) object references a corresponding worksheet in the workbook. Access a specific sheet by its name (e.g. "Sheet1") or its position in the workbook (e.g. 1).
+The [`Worksheet`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-object-excel) object references a corresponding worksheet in the workbook.
+
+To access a specific sheet, reference it by name (e.g. "Sheet1") or position in the workbook (e.g. 1):
 
 ```vb
 Worksheets("Sheet1").Name ' --> "Sheet1"
 Worksheets("Sheet1").Index ' --> 1
 ```
 
-Like the `Range` object, the `Worksheet` object also has a `Cells` property, which can be used to manipulate the sheet's cell values.
+Like the `Range` object, the `Worksheet` object also has a `Cells` property, which can be used to manipulate the sheet's cell values:
 
 ```vb
 Worksheets("Sheet1").Cells.ClearContents ' remove values of all cells in this sheet
