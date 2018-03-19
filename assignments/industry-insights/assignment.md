@@ -1,0 +1,1 @@
+# Industry Insights Assignment
