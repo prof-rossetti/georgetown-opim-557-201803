@@ -8,7 +8,8 @@
   + Visual Basic Programming:
     + [Getting Started](/notes/visual-basic/getting-started/notes.md)
     + [Comments](/notes/visual-basic/comments/notes.md)
-
+  + [Industry Insights Assignment](/assignments/industry-insights/assignment.md)
+    
 ## B-Side
 
   + [Information Systems](/notes/information-systems/notes.md)
@@ -20,3 +21,4 @@
     + [Command Buttons](/notes/active-x-controls/command-buttons/notes.md)
   + Visual Basic Programming:
     + [Message Boxes](/notes/visual-basic/message-boxes/notes.md)
+  + [Excel Objects Assignment](/assignments/excel-objects/assignment.md)
