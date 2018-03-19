@@ -6,17 +6,19 @@ The [`Range`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/range-obje
 
 ### Reading Values and Properties
 
-To read the value of a cell:
+To read the value and other properties of a cell:
 
 ```vb
 Range("A1").Value ' --> "Hello World"
-```
-
-To read various properties of a cell:
-
-```vb
 Range("A1").Address ' --> "$A$1"
 Range("A2").Formula ' --> "=B2+C2"
+```
+
+By default, ranges are referenced relative to the current sheet. If you need to reference a range on another sheet or a specific sheet, include the sheet name as part of the reference:
+
+```vb
+Worksheets("Sheet1").Range("A1").Value ' --> "Hello from Sheet 1"
+Worksheets("Sheet2").Range("A1").Value ' --> "Hello from Sheet 2"
 ```
 
 ### Writing Values
