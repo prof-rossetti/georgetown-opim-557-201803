@@ -1,16 +1,10 @@
-# OPIM 557-20: Computer-based Decision Support Systems
+# OPIM 557: Computer-based Decision Support Systems
 
 This repository contains resources for instructing a graduate business school course on creating decision support systems in MS Excel using the Visual Basic for Applications (VBA) programming language.
 
 See the [Syllabus](/syllabus-20180318.pdf) for more information about the course, and the [Canvas site](https://georgetown.instructure.com/) for a comprehensive calendar of events and due dates.
 
 ## Course Materials
-
-### Weekly Check-ins
-
-Please submit this [Check-in Form](https://goo.gl/forms/7zcXMV6TQCTVRcWw1) each week, sometime between Thursday morning and 11:59pm on Sunday.
-
-Your responses help the professor evaluate and improve instructional methods on an ongoing basis in an effort to provide the best possible experience for current and future students.
 
 ### Instructional Units
 
@@ -39,6 +33,12 @@ Your responses help the professor evaluate and improve instructional methods on 
   + Retirement Savings Calculator
   + Executive Dashboard
   + Stock Trading Recommendation System
+
+### Weekly Check-ins
+
+Please submit this [Check-in Form](https://goo.gl/forms/7zcXMV6TQCTVRcWw1) each week, sometime between Thursday morning and 11:59pm on Sunday.
+
+Your responses help the professor evaluate and improve instructional methods on an ongoing basis in an effort to provide the best possible experience for current and future students.
 
 ## [Contributing](/CONTRIBUTING.md)
 

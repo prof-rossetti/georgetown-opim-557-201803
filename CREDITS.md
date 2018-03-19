@@ -1,6 +1,6 @@
 # Credits, Notes, and Reference
 
-Special thanks to Professor Robin Dillon-Merrill <rld9@georgetown.edu> for providing proprietary resources from previous semesters, including lecture notes and example files.
+Special thanks to Professor Robin Dillon-Merrill (<rld9@georgetown.edu>) for sharing resources from previous semesters, including lecture notes and example files.
 
 ## Previous Courses by Professor Rossetti
 
