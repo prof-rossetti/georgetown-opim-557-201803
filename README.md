@@ -21,6 +21,13 @@ Your responses help the professor evaluate and improve instructional methods on 
   + Unit 5
   + Unit 6
 
+### Notes
+
+  + [Information Systems](/notes/information-systems/notes.md)
+  + [ActiveX Controls](/notes/active-x-controls/notes.md)
+  + [Excel Objects](/notes/excel-objects)
+  + [VBA Programming](/notes/visual-basic)
+
 ### Assignments
 
   + [Excel Objects Assignment](/assignments/excel-objects/assignment.md)
