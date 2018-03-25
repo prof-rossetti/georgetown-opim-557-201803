@@ -68,12 +68,15 @@ MsgBox(MyMessage & " " & UCase(MyMessage) & " " & LCase(MyMessage) & " " & Works
 
 ##### String Formatting
 
-Convert numbers into strings using a specified template. The template to convert to a USD currency format with a dollar sign and thousands separator and two decimal places is `"$##,##0.00"`:
+Use the built-in [`Format()` function](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/format-function-visual-basic-for-applications) to convert numbers into strings using a specified template. Two common templates are `"Currency"` and `"Percent"`, however you can also create your own custom formats using a mix of special characters:
 
 ```vb
 Dim Price As Double
 Price = 45.12345
-MsgBox( Format(Price, "$##,##0.00") )
+
+Format(Price, "Currency") '--> "$45.12"
+Format(Price, "Percent") '--> "4512.34%"
+Format(Price, "##,##0.0 tons") '--> "45.1 tons"
 ```
 
 ##### String Splitting
