@@ -44,7 +44,7 @@ See also: [using arrays](https://msdn.microsoft.com/en-us/vba/language-reference
 
 #### Iteration
 
-Use a `For Each` loop to iterate through each item in the array:
+Once you have studied loops, you can use a `For Each` loop to iterate through each item in an array:
 
 ```vba
 Dim Team As Variant ' use Variant datatype instead of String datatype to avoid error
