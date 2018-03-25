@@ -5,7 +5,7 @@
   + You have access to [Canvas](https://georgetown.instructure.com/) and [Slack](https://georgetown-opim-557.slack.com), right? Try sending a friendly emoji-filled "Hello" message to your section-specific Slack channel.
   + You have submitted an [Onboarding Survey](https://goo.gl/forms/lIKrPDhZgz8Torhr2), [Excel Objects Assignment](/assignments/excel-objects/assignment.md), and [Week 1 Check-in Form](https://goo.gl/forms/lCFkidmd8HPlj8Qj1), right? If not, please do so before Monday night 3/26 at 11:59pm for a last chance to receive full credit.
   + Calling all student volunteers to share/demo solutions for the [Excel Objects Assignment](/assignments/excel-objects/assignment.md)! 
-  + Introducing the [ActiveX Controls Assignment](/assignments/activex-controls/assignment.md)
+  + Introducing the [ActiveX Controls Assignment](/assignments/activex-controls/assignment.md).
   + [ActiveX Controls](/notes/active-x-controls/notes.md):
     + [Spin Buttons](/notes/active-x-controls/spin-buttons/notes.md)
     + [Scroll Bars](/notes/active-x-controls/scroll-bars/notes.md)

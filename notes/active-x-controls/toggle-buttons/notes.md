@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `ToggleButton` Control
+## Toggle Buttons
 
-A button which maintains either a pressed or unpressed state (like a light switch).
+The [`ToggleButton` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/togglebutton-control) represents a button which maintains either a pressed or unpressed state (like a light switch).
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/togglebutton-control).
-
-### Initialization
+### Insertion
 
 "Developer" > "Insert" > "ActiveX Controls" > "Toggle Button"
 

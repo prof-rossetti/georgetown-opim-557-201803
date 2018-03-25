@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `ScrollBar` Control
+## Scroll Bars
 
-A fluid scale which allows the user to increment or decrement an integer value.
+The [`ScrollBar` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/scrollbar-control) represents a fluid scale which allows the user to increment or decrement an integer value.
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/scrollbar-control).
-
-### Initialization
+### Insertion
 
 "Developer" > "Insert" > "ActiveX Controls" > "Scroll Bar"
 

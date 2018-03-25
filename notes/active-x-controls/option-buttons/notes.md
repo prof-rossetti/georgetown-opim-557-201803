@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `OptionButton` Control
+## Option Buttons
 
-A selectable circle (a.k.a. "radio button") belonging to a specified group from which only one may be selected at any given time.
+The [`OptionButton` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/optionbutton-control) represents a selectable circle (a.k.a. "radio button") belonging to a specified group from which only one may be selected at any given time.
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/optionbutton-control).
-
-### Initialization
+### Insertion
 
 For each radio button: "Developer" > "Insert" > "ActiveX Controls" > "Option Button".
 

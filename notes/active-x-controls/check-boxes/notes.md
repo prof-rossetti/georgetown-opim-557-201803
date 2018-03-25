@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `CheckBox` Control
+## Check Boxes
 
-A checkable box belonging to a specified group from which zero or more may be selected at any given time.
+The [`CheckBox` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/checkbox-control) represents a checkable box belonging to a specified group from which zero or more may be selected at any given time.
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/checkbox-control).
-
-### Initialization
+### Insertion
 
 For each box: "Developer" > "Insert" > "ActiveX Controls" > "Check Box".
 

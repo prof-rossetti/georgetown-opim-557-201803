@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `ListBox` Control
+## List Boxes
 
-A picker menu which allows the user to choose one option from a provided list.
+The [`ListBox` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/listbox-control) represents a picker menu which allows the user to choose one option from a provided list.
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/listbox-control).
-
-### Initialization
+### Insertion
 
 "Developer" > "Insert" > "ActiveX Controls" > "List Box"
 

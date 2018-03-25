@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `SpinButton` Control
+## Spin Buttons
 
-A set of arrows which allow the user to increment or decrement an integer value.
+The [`SpinButton` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/spinbutton-control) represents a set of arrows which allow the user to increment or decrement an integer value.
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/spinbutton-control).
-
-### Initialization
+### Insertion
 
 "Developer" > "Insert" > "ActiveX Controls" > "Spin Button"
 

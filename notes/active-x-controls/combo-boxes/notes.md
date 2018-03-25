@@ -1,12 +1,10 @@
-# MS Excel ActiveX Controls
+# ActiveX Controls
 
-## The `ComboBox` Control
+## Combo Boxes
 
-A drop-down menu which allows the user to choose one option from a provided list.
+The [`ComboBox` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/combobox-control) represents a drop-down menu which allows the user to choose one option from a provided list.
 
-Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/combobox-control).
-
-### Initialization
+### Insertion
 
 "Developer" > "Insert" > "ActiveX Controls" > "Combo Box"
 
