@@ -2,7 +2,7 @@
 
 ## Datatypes
 
-A computer program often allocates memory to store information for future reference. Some data is more "expensive" to store than others, so declaring a [datatypes](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types) helps the program allocate memory in an efficient way. 
+A computer program often allocates memory to store information for future reference. Some data is more "expensive" to store than others, so declaring [datatypes](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types) helps the program allocate memory in an efficient way.
 
 Also, different datatypes each have their own unique methods and proprties. For example, the things you can do with numeric data are not the same things you can do with text.
 
