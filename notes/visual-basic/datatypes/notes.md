@@ -2,7 +2,7 @@
 
 ## Datatypes
 
-A computer program allocates memory to store information for future reference. Some data is more "expensive" to store than others, so declaring a [datatypes](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types) helps the program allocate memory in an efficient way. 
+A computer program often allocates memory to store information for future reference. Some data is more "expensive" to store than others, so declaring a [datatypes](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types) helps the program allocate memory in an efficient way. 
 
 Also, different datatypes each have their own unique methods and proprties. For example, the things you can do with numeric data are not the same things you can do with text.
 
@@ -10,18 +10,18 @@ Common basic datatypes include:
 
 name | description
 --- | ---
-`Booleans` | A binary value of true or false.
-[`Strings`](strings.md) | Textual information.
-`Integers` | A positive whole number.
-`Doubles` | A decimal number.
-`Dates` | A calendar date.
-[`Arrays`](datatypes/arrays.md) | An ordered collection of other items.
+`Boolean` | A binary value of true or false.
+[`String`](strings.md) | Textual information.
+`Integer` | A positive whole number.
+`Double` | A decimal number.
+`Date` | A calendar date.
+[`Array`](datatypes/arrays.md) | An ordered collection of other items.
 
-You can also think about each class of [Excel Object](/notes/visual-basic/excel-objects/notes.md) as being its own datatype, with its own custom properties and methods.
+In addition to these common programming datatypes, you can also think about each [Excel Object](/notes/excel-objects) and [ActiveX Control](/notes/active-x-controls/notes.md) as its own datatype, each with its own custom properties and methods.
 
 <hr>
 
-> Below this line there are advanced topics which you can feel free to come back to later...
+> Below this line there are advanced topics which you can feel free to come back to later, especially once you have studied how to handle and validate user inputs...
 
 <hr>
 
