@@ -79,6 +79,27 @@ Format(Price, "Percent") '--> "4512.34%"
 Format(Price, "##,##0.0 tons") '--> "45.1 tons"
 ```
 
+##### Substring Detection
+
+Use the `InStr()` function to detect whether or not a string includes a specified substring. The first parameter represents the string to be searched, and the second parameter represents the substring to search for.
+
+If the substring is found, the function will return a `0`, otherwise it will return the substring index number representing the position of the substring's first character:
+
+```vb
+Dim MyStr As String
+MyStr = "Hello World"
+
+InStr(MyStr, "World") ' --> 7
+
+InStr(MyStr, "Goodbye") ' --> 0
+```
+
+<hr>
+
+> Below this line there are advanced topics which you can feel free to come back to later, especially once you have studied arrays...
+
+<hr>
+
 ##### String Splitting
 
 Split a string into component parts by using the `Split()` function and passing parameters corresponding to the string to be split, followed by the delimiter:
@@ -105,17 +126,4 @@ Next ListItem
 ' --> "third"
 ```
 
-##### Substring Detection
 
-Use the `InStr()` function to detect whether or not a string includes a specified substring. The first parameter represents the string to be searched, and the second parameter represents the substring to search for.
-
-If the substring is found, the function will return a `0`, otherwise it will return the substring index number representing the position of the substring's first character:
-
-```vb
-Dim MyStr As String
-MyStr = "Hello World"
-
-InStr(MyStr, "World") ' --> 7
-
-InStr(MyStr, "Goodbye") ' --> 0
-```
