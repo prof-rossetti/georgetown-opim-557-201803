@@ -4,11 +4,10 @@
 
 ### Declaring Variables
 
-Reference: [`Dim` Statement Documentation](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/statements/dim-statement).
+Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to declare which [type of data](/notes/visual-basic/datatypes/notes.md) a variable will hold. In the current version it is not always necessary to declare variables to produce desired functionality. However, declaring variables is a best practice, at least for performance reasons.
 
-Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to declare which [type of data](/notes/visual-basic/datatypes/notes.md) a variable will hold. In the current version it is not always necessary to declare variables to produce desired functionality. However, declaring variables is a best practice for performance reasons.
-
-The most common way to declare a variable is to use the `Dim` keyword, followed by the variable name, followed by the `As` keyword, followed by the datatype. For example:
+The most common way to [declare a variable](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/statements/dim-statement) is to use the `Dim` keyword.
+, followed by the variable name, followed by the `As` keyword, followed by the datatype. For example:
 
 ```vb
 Dim MyNumber As Integer
@@ -40,7 +39,7 @@ MyDecimal = 3.14
 MyDate = #10/31/2017# ' the pound signs surround the date value formatted as MM/DD/YYYY
 ```
 
-To assign an [Excel Object](/notes/visual-basic/excel-objects.md) to a variable, use the `Set` keyword:
+To assign an [Excel Object](/notes/excel-objects) to a variable, you may need to use the `Set` keyword:
 
 ```vb
 Set MySheet = Worksheets("Sheet1")
