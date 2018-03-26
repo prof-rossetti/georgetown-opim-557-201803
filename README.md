@@ -18,7 +18,7 @@ See the [Syllabus](/syllabus-20180318.pdf) for more information about the course
 ### Notes
 
   + [Information Systems](/notes/information-systems/notes.md)
-  + [ActiveX Controls](/notes/active-x-controls/notes.md)
+  + [ActiveX Controls](/notes/activex-controls/notes.md)
   + [Excel Objects](/notes/excel-objects)
   + [VBA Programming](/notes/visual-basic)
 
