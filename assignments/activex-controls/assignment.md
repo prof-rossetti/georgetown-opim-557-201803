@@ -89,7 +89,7 @@ When the user selects one of the option buttons:
 
 #### Check Box Challenge
 
-Repeat the option button challenge above, but use check box controls instead.
+Repeat the option button challenge above, but use check box controls instead. Ignore the expectation for mutual exclusivity because more than one check box may be selected at the same time.
 
 And, instead of writing the name or caption of a single selected option to a specified cell, write a concatenated list of all selected options. The list doesn't need to be formatted in any particular way - a single space in between each selected option is sufficient.
 
