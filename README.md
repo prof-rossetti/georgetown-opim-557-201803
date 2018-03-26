@@ -9,7 +9,7 @@ See the [Syllabus](/syllabus-20180318.pdf) for more information about the course
 ### Instructional Units
 
   + [Unit 1](/units/unit-1/agenda.md)
-  + [Unit 2](/units/unit-2/agenda/md)
+  + [Unit 2](/units/unit-2/agenda.md)
   + Unit 3
   + Unit 4
   + Unit 5
