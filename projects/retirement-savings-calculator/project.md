@@ -16,7 +16,9 @@ Assume you own and operate a financial planning business which helps customers p
 
 ## Instructions
 
-Create a new blank workbook called ________
+Create a new macro-enabled workbook named **`net_id`-savings-calc.xlsm**, where `net_id` is your university-issued net identifier (i.e. the first part of your university-issued email address).
+
+Rename the first sheet to "Interface".
 
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
@@ -38,6 +40,8 @@ Your system should accept the following user inputs:
   4. The amount of money the client plans to contribute to savings each year. Assume contributions are made at the end of each year, after interest has been accrued.
   5. A projected annual growth rate for the client's savings (a.k.a the interest rate). Assume interest will compound on an annual basis (at the end of each year), not on a monthly basis.
 
+![a screenshot showing a message box displaying the user inputs](display-inputs.png)
+
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
 info input | suggested variable name | variable datatype | example value
@@ -48,8 +52,6 @@ Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
 Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
 
-![a screenshot showing a message box displaying the user inputs](display-inputs.png)
-
 #### Information Outputs
 
 Your system should produce the following outputs:
@@ -57,6 +59,8 @@ Your system should produce the following outputs:
   1. The final savings balance at the end of the year when the client reaches the specified retirement age.
   2. The portion of the final savings balance which was contributed directly by the client.
   3. The portion of the final savings balance resulting from accrued interest on the principal.
+
+![a screenshot showing a message box displaying the final outputs](display-outputs.png)
 
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
@@ -68,8 +72,6 @@ Total Interest Accrued | `InterestAccrued` | `Double` | `31439.21`
 
 See the "Calculation Requirements" section below for more information about how to calculate these information outputs.
 
-![a screenshot showing a message box displaying the final outputs](display-outputs.png)
-
 
 
 
@@ -80,12 +82,13 @@ See the "Calculation Requirements" section below for more information about how 
 
 Provide written instructions which explain how to use the tool.
 
-Use cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these alternative [expample interfaces](example-interfaces.md).
+Use cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these [expample interfaces](example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience.
 
 Regardless of how you choose to capture user inputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
 
 Use an ActiveX command button control that when clicked will read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
 
+At no time should previously-generated outputs be visible at the same time as yet-to-be used inputs. The user should not be able to take a screenshot of the application which depicts mismatching inputs and output values. If you have questions about this, ask the professor for clarifications.
 
 
 
@@ -150,8 +153,8 @@ The final amount of principal contributed is equal to the very first savings bal
 
 Upload your workbook file to Canvas:
 
-  + [Section 40 Assignment Upload](https://georgetown.instructure.com/courses/54379/assignments/123534)
-  + [Section 41 Assignment Upload](https://georgetown.instructure.com/courses/54380/assignments/123536)
+  + [Section 40 Project Upload](https://georgetown.instructure.com/courses/54379/assignments/123534)
+  + [Section 41 Project Upload](https://georgetown.instructure.com/courses/54380/assignments/123536)
 
 ## Evaluation Methodology
 
