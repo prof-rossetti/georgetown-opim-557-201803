@@ -2,7 +2,7 @@
 
 This repository contains resources for instructing a graduate business school course on creating decision support systems in MS Excel using the Visual Basic for Applications (VBA) programming language.
 
-See the [Syllabus](/syllabus-20180318.pdf) for more information about the course, and the [Canvas site](https://georgetown.instructure.com/) for a comprehensive calendar of events and due dates.
+See the [Syllabus](/syllabus-20180325.pdf) for more information about the course, and the [Canvas site](https://georgetown.instructure.com/) for a comprehensive calendar of events and due dates.
 
 ## Course Materials
 
