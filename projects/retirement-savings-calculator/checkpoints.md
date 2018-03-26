@@ -1,27 +1,27 @@
-# Project 1 Checkpoints
+# Retirement Savings Calculator
 
-This document provides a progression of sequential checkpoints to help focus your development efforts.
+## Project Checkpoints
 
-It assumes you have already configured your desired [user interface](example-interfaces.md).
+This document provides a progression of sequential checkpoints to help focus your development efforts, as desired. It assumes you have already configured your desired [user interface](example-interfaces.md). If you don't want to follow the approaches described in this document, you don't have to.
 
-## Checkpoint 1: Capture and Display Inputs
+### Checkpoint 1: Capture and Display Inputs
 
   1. Capture user inputs and display them in a message box.
   2. After demonstrating your ability to display raw input values in a message box, format currency and percentage values as applicable. Don't worry if at this point you are writing the same formatting-related snippet of code in multiple places. The next step is about simplifying, or "refactoring" the code to remove such duplication.
   3. You are encouraged but not required to define one or more custom functions to perform the numeric formatting. Hint: you will need to pass the number as a parameter when invoking the function(s).
 
-## Checkpoint 2: Display Outputs
+### Checkpoint 2: Display Outputs
 
   1. After displaying inputs, also display the outputs. Don't worry if you haven't performed the necessary calculations yet. Use hard-coded example values for now. Your objective is to get the display right. Format currency and percentage values as applicable.
 
-## Checkpoint 3: Perform Calculations
+### Checkpoint 3: Perform Calculations
 
   1. Calculate the savings balance for the end of one year, and display it (see Checkpoint 2) as if it were the final balance.
   2. Forget about calculating anything. See if you can loop through each year between the customer's current age and their desired retirement age. Optionally produce a message box to display each age value. This is a temporary check to make sure you are looping properly. Make sure to increment the age to avoid getting stuck in an infinite loop!
   3. Modify the code inside your loop to calculate the final savings balance, and display it (see Checkpoint 2).
   4. Finally, modify the code inside your loop to calculate the remaining output values, and display them (see Checkpoint 2). Hint: you may need to declare additional variables outside the loop's scope.
 
-## Checkpoint 4: Validate Inputs
+### Checkpoint 4: Validate Inputs
 
 Perform this checkpoint only if your interface allows users to enter invalid input values by mistake.
 
