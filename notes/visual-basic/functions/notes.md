@@ -2,9 +2,7 @@
 
 ## Functions
 
-In Visual Basic, "functions" are specific kinds of procedures which are responsible for returning some result.
-
-Whereas the responsibility of a sub-procedure can be to perform some action (like display a message box), the responsibility of a function is to pass back, or "return", a resulting value.
+In Visual Basic, a [Function](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/function-procedures) is a specific kind of procedure which is responsible for returning some value.
 
 ### Defining Functions
 
