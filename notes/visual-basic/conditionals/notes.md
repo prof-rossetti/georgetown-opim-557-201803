@@ -6,7 +6,7 @@
 
 The [`If` Statement](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ifthenelse-statement) allows the program to implement conditional logic.
 
-All `If` statements contain an initial `If` clause and generally end with the keywords `End If`. Everything inbetween is in the scope of that `If` statement.
+All `If` statements contain an initial `If` clause and generally end with the keywords `End If`. Everything inbetween is considered to be inside the scope of that `If` statement:
 
 ```vb
 If 5 = 5 Then 
@@ -40,7 +40,9 @@ Add any number of `ElseIf` clauses, each with their own condition. If there are 
 If 5 = 4 Then
   MsgBox("Yep")
 ElseIf 5 = 5 Then
-  MsgBox("Other")
+  MsgBox("First true condition") ' this statement will always get executed
+ElseIf True = True Then
+  MsgBox("Second true condition") ' this statement will never get executed
 Else
   MsgBox("Nope")
 End If
