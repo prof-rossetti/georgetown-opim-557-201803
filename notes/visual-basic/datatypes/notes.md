@@ -15,15 +15,9 @@ name | description
 `Integer` | A positive whole number.
 `Double` | A decimal number.
 `Date` | A calendar date.
-[`Array`](datatypes/arrays.md) | An ordered collection of other items.
+[`Array`](arrays.md) | An ordered collection of other items.
 
 In addition to these common programming datatypes, you can also think about each [Excel Object](/notes/excel-objects) and [ActiveX Control](/notes/activex-controls/notes.md) as its own datatype, each with its own custom properties and methods.
-
-<hr>
-
-> Below this line there are advanced topics which you can feel free to come back to later, especially once you have studied how to handle and validate user inputs...
-
-<hr>
 
 ### Checking a Variable's Type
 
@@ -69,6 +63,12 @@ IsNumeric("1") ' --> True
 IsNumeric("3.14") ' --> True
 IsNumeric("Hello") ' --> False
 ```
+
+<hr>
+
+> Below this line there are advanced topics which you can feel free to come back to later, especially once you have studied how to handle and validate user inputs...
+
+<hr>
 
 ### Static Typing
 
