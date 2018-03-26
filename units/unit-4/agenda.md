@@ -14,4 +14,4 @@
     + [Input Boxes](/notes/visual-basic/input-boxes/notes.md)
     + Detection of [Datatypes](/notes/visual-basic/datatypes/notes.md) (focus on the material towards the bottom half of the page)
     + [Handling Errors](/notes/visual-basic/errors/notes.md)
-  + [Retirement Savings Calculator](/projects/retirement-savings-calculator/project.md) Project Support
+  + [Retirement Savings Calculator - Checkpoints](/projects/retirement-savings-calculator/checkpoints.md) and Support
