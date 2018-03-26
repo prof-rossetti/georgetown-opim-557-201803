@@ -10,8 +10,8 @@
 
   + Code Simplification and [Refactoring](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) - "Do not Repeat Yourself" (DRY)
   + Visual Basic Programming:
-    + [Custom Functions](/notes/visual-basic/functions/notes.md)
     + [Custom Sub-procedures](/notes/visual-basic/sub-procedures/notes.md)
+    + [Custom Functions](/notes/visual-basic/functions/notes.md)
     + [Modules and Architecture](/notes/visual-basic/modules/notes.md)
   + Ungraded practice exercise: can you use custom functions and sub-procedures to simplify and remove duplication from the code you submitted as part of your [ActiveX Controls Assignment](/assignments/activex-controls/assignment.md), specifically for the option button and check box challenges?
 
