@@ -14,7 +14,7 @@ Rename the first sheet to "Interface". On the "Interface" sheet, create each of 
   1. **Command Button** (with a caption like "Count number of times clicked")
   2. **Combo Box** (with a list fill range of cells representing the list of selectable options, and a linked cell to display the currently selected value)
   3. **List Box** (with a list fill range of cells representing the list of selectable options, and a linked cell to display the currently selected value)
-  4. **Toggle Button** (with a linked cell to display the current value)
+  4. **Toggle Button** (with a caption like "Toggle me!" and a linked cell to display the current value)
   5. **Spin Button** (with a linked cell to display the current value)
   6. **Scroll Bar** (with a linked cell to display the current value)
   7. **Option Buttons** (a related group of four, each with its own linked cell to display its current value)
@@ -91,7 +91,7 @@ When the user selects one of the option buttons:
 
 Repeat the option button challenge above, but use check box controls instead.
 
-But, instead of writing the name or caption of a single selected option to a specified cell, write a concatenated list of all selected options. The list doesn't need to be formatted in any particular way - a single space in between each selected option is sufficient.
+And, instead of writing the name or caption of a single selected option to a specified cell, write a concatenated list of all selected options. The list doesn't need to be formatted in any particular way - a single space in between each selected option is sufficient.
 
 ![a screenshot of four vertically-aligned check boxes, two of which are selected. it also shows a message box alerting the user of which options have been selected. it also uses four different linked cells to indicate the boolean values of each option. it also displays in a specified cell the captions of both selected options.](/notes/activex-controls/check-boxes/check-box-2.png)
 
