@@ -5,13 +5,13 @@ Popular ActiveX controls inside MS Excel include:
 name | description
 --- | ---
 [`CommandButton`](command-buttons/notes.md) | A clickable button.
-`ToggleButton` | A button which maintains either a pressed or unpressed state (like a light switch).
-`ComboBox` (drop-down) | A drop-down menu which allows the user to choose one option from a provided list.
-`ListBox` | A picker menu which allows the user to choose one option from a provided list.
-`SpinButton` | A set of arrows which allow the user to increment or decrement an integer value.
-`ScrollBar` | A fluid scale which allows the user to increment or decrement an integer value.
-`OptionButton` (radio button) | A selectable circle belonging to a specified group from which only one may be selected at any given time.
-`CheckBox` | A checkable box belonging to a specified group from which zero or more may be selected at any given time.
+[`ComboBox`](combo-boxes/notes.md) (drop-down) | A drop-down menu which allows the user to choose one option from a provided list.
+[`ListBox`](list-boxes/notes.md) | A picker menu which allows the user to choose one option from a provided list.
+[`SpinButton`](spin-buttons/notes.md) | A set of arrows which allow the user to increment or decrement an integer value.
+[`ScrollBar`](scroll-bars/notes.md) | A fluid scale which allows the user to increment or decrement an integer value.
+[`ToggleButton`](toggle-buttons/notes.md) | A button which maintains either a pressed or unpressed state (like a light switch).
+[`OptionButton`](option-buttons/notes.md) (radio button) | A selectable circle belonging to a specified group from which only one may be selected at any given time.
+[`CheckBox`](check-boxes/notes.md) | A checkable box belonging to a specified group from which zero or more may be selected at any given time.
 
 ## Insertion
 

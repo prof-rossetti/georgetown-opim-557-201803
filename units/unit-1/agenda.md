@@ -18,8 +18,8 @@
     + [Workbooks](/notes/excel-objects/workbooks/notes.md)
     + [Worksheets](/notes/excel-objects/worksheets/notes.md)
     + [Ranges](/notes/excel-objects/ranges/notes.md)
-  + [ActiveX Controls](/notes/active-x-controls/notes.md):
-    + [Command Buttons](/notes/active-x-controls/command-buttons/notes.md)
+  + [ActiveX Controls](/notes/activex-controls/notes.md):
+    + [Command Buttons](/notes/activex-controls/command-buttons/notes.md)
   + Visual Basic Programming:
     + [Message Boxes](/notes/visual-basic/message-boxes/notes.md)
   + [Excel Objects Assignment](/assignments/excel-objects/assignment.md)

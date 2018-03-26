@@ -9,7 +9,7 @@ See the [Syllabus](/syllabus-20180318.pdf) for more information about the course
 ### Instructional Units
 
   + [Unit 1](/units/unit-1/agenda.md)
-  + Unit 2
+  + [Unit 2](/units/unit-2/agenda.md)
   + Unit 3
   + Unit 4
   + Unit 5
@@ -18,14 +18,14 @@ See the [Syllabus](/syllabus-20180318.pdf) for more information about the course
 ### Notes
 
   + [Information Systems](/notes/information-systems/notes.md)
-  + [ActiveX Controls](/notes/active-x-controls/notes.md)
+  + [ActiveX Controls](/notes/activex-controls/notes.md)
   + [Excel Objects](/notes/excel-objects)
   + [VBA Programming](/notes/visual-basic)
 
 ### Assignments
 
   + [Excel Objects Assignment](/assignments/excel-objects/assignment.md)
-  + ActiveX Controls Assignment
+  + [ActiveX Controls Assignment](/assignments/activex-controls/assignment.md)
   + [Industry Insights Assignment](/assignments/industry-insights/assignment.md)
 
 ### Projects
