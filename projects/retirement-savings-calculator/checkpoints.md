@@ -2,7 +2,7 @@
 
 This document provides a progression of sequential checkpoints to help focus your development efforts.
 
-It assumes you have already configured your desired user interface.
+It assumes you have already configured your desired [user interface](example-interfaces.md).
 
 ## Checkpoint 1: Capture and Display Inputs
 
