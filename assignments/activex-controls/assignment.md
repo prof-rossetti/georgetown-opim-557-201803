@@ -85,7 +85,7 @@ When the user selects one of the option buttons:
 
 ![a screenshot of four vertically-aligned option buttons, one of which is selected. it also shows a message box alerting the user of which option has been selected. it also uses four different linked cells to indicate the boolean values of each option. it also displays in a specified cell the caption of the selected option.](/notes/activex-controls/option-buttons/option-button-2.png)
 
-> Note: don't worry if this challenge results in some code duplication. After you learn about custom subprocedures and parameters, we can apply techniques for simplifying, or "refactoring" this code to remove duplication.
+> Note: don't worry if this challenge results in some code duplication. After you learn about custom sub-procedures and parameters, we can apply techniques for simplifying, or "refactoring" this code to remove duplication.
 
 #### Check Box Challenge
 
@@ -97,7 +97,7 @@ And, instead of writing the name or caption of a single selected option to a spe
 
 > Hint: inside the scope of each check box control's click event subprocedure, use one or more `If` statements to check the values of each check box, and conditionally concatenate a string variable to include the name or caption of each control as appropriate.
 
-> Note: don't worry if this challenge results in some code duplication. After you learn about custom subprocedures and parameters, we can apply techniques for simplifying, or "refactoring" this code to remove duplication.
+> Note: don't worry if this challenge results in some code duplication. After you learn about custom sub-procedures and parameters, we can apply techniques for simplifying, or "refactoring" this code to remove duplication.
 
 ## Submission Instructions
 
