@@ -10,8 +10,8 @@ See the [Syllabus](/syllabus-20180318.pdf) for more information about the course
 
   + [Unit 1](/units/unit-1/agenda.md)
   + [Unit 2](/units/unit-2/agenda.md)
-  + Unit 3
-  + Unit 4
+  + [Unit 3](/units/unit-3/agenda.md)
+  + [Unit 4](/units/unit-4/agenda.md)
   + Unit 5
   + Unit 6
 
@@ -30,7 +30,7 @@ See the [Syllabus](/syllabus-20180318.pdf) for more information about the course
 
 ### Projects
 
-  + Retirement Savings Calculator
+  + [Retirement Savings Calculator](/projects/retirement-savings-calculator/project.md)
   + Executive Dashboard
   + Stock Trading Recommendation System
 

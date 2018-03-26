@@ -110,7 +110,7 @@ Upload your workbook file to Canvas:
 
 Submissions will be evaluated based on successful completion of component challenges:
 
-challenge | weight
+Challenge | Weight
 --- | ---
 Command Button | 15%
 Combo Box | 10%
@@ -120,3 +120,5 @@ Spin Button | 10%
 Scroll Bar | 10%
 Option Buttons | 15%
 Check Boxes | 15%
+
+This rubric is tentative, and may be subject to slight adjustments during the grading process.
