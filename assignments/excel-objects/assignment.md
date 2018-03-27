@@ -47,4 +47,18 @@ Upload your workbook file to Canvas:
 
 ## Evaluation Methodology
 
-Full credit for solving all the challenges. Else partial credit between 75% and 90% for solving most of them. Else partial credit between 50% and 75% for solving some of them.
+Submissions will be evaluated based on successful completion of component challenges:
+
+Challenge | Weight
+--- | ---
+Workbook Open Event | 15%
+Workbook Close Event | 10%
+Workbook Resize Event | 10%
+Read Workbook Name | 10%
+Read Worksheet Name | 10%
+Replay Macro | 15%
+Read Cell Value | 10%
+Clear Cell Value | 10%
+Write Cell Value | 10%
+
+This rubric is tentative, and may be subject to slight adjustments during the grading process.
