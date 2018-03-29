@@ -30,9 +30,11 @@ When the user clicks the "Count number of times clicked" button, the program sho
 
 ![A screenshot of a message box that reads 'You have clicked me 3 times. Keep going!'](command-button-counting-clicks.png)
 
+> Clarification: please use a variable, not a cell for storing the click count.
+
 > Hint: declare a variable outside the scope of the button's click event subprocedure, and increment the variable's value from inside the scope of the click event subprocedure.
 
-> Hint: the first hint may only work if you declare the variable at the top of your VBA document, above any other subprocedure definitions. If you desire more flexibility in the positioning of your code, you might want to explore using [`Static`](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/modifiers/static) instead of `Dim`,  to change the scope of your variable.
+> Hint: the first hint may only work if you declare the variable at the top of your VBA document, above any other subprocedure definitions. If you desire more flexibility in the positioning of your code, you might want to explore using [`Static`](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/modifiers/static) instead of `Dim`,  to change the scope of your variable. Note: if you are delcaring the variable using `Static`, you will want to do so within the scope of the click event subprocedure.
 
 #### Combo Box Challenge
 
