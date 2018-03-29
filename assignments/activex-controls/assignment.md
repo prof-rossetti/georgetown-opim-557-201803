@@ -32,6 +32,8 @@ When the user clicks the "Count number of times clicked" button, the program sho
 
 > Hint: declare a variable outside the scope of the button's click event subprocedure, and increment the variable's value from inside the scope of the click event subprocedure.
 
+> Hint: the first hint may only work if you declare the variable at the top of your VBA document, above any other subprocedure definitions. If you desire more flexibility in the positioning of your code, you might want to explore using [`Static`](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/modifiers/static) instead of `Dim`,  to change the scope of your variable.
+
 #### Combo Box Challenge
 
 The user should be able to use a combo box to select one of at least three options. 
@@ -47,6 +49,8 @@ When the user selects an option from the combo box, the control's linked cell sh
 Repeat the combo box challenge above, but use a list box control instead.
 
 ![A screenshot of a list box control which displays the currently selected item name in a linked cell](/notes/activex-controls/list-boxes/list-box.png)
+
+> Note: if the List Box is acting a little buggy, either visually or in the sense that its click/change event is triggered when the workbook is opened, don't worry about it. Just consider this when choosing which controls to use in the future. :smile_cat:
 
 #### Spin Button Challenge
 
