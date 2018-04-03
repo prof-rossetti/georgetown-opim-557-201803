@@ -4,8 +4,6 @@
 
 Assume you own and operate a financial planning business which helps customers plan for retirement. Your objective is to build yourself a tool to automate the common calculations required to provide your clients with retirement savings advice. Specifically, the system should accept a number of information inputs representing the client's savings goals, and should produce an information output representing the amount of money the client can expect to have saved upon reaching retirement age.
 
-![a screenshot depicting an example user interface which includes cell inputs and a "Calculate" button](example-interfaces/cells-only.png)
-
 ## Learning Objectives
 
   1. Design and build a tool to perform automated calculations and aid a decision-making process.
@@ -42,7 +40,7 @@ Your system should accept the following user inputs:
 
 ![a screenshot showing a message box displaying the user inputs](display-inputs.png)
 
-The table below provides a framework for you to translate these information inputs into VBA variables.
+The table below provides a framework for you to translate these information inputs into VBA variables. However, don't feel obligated to declare the same datatypes, and depending on your interface there are situations where you might not be declaring datatypes at all.
 
 info input | suggested variable name | variable datatype | example value
 --- | ---  | ---  | ---
@@ -82,7 +80,7 @@ See the "Calculation Requirements" section below for more information about how 
 
 Provide written instructions which explain how to use the tool.
 
-Use cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these [expample interfaces](example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience.
+Use cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these [expample interfaces](example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
 
 Regardless of how you choose to capture user inputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
 
@@ -100,9 +98,9 @@ At no time should previously-generated outputs be visible at the same time as ye
 
 ### Validation Requirements
 
-Prevent the user from inputting invalid values (i.e. entering a value of the wrong data type, entering a value outside of a reasonable range of accepted values, etc.).
+Do your best to prevent the user from inputting invalid values (i.e. entering a value of the wrong data type, entering a value outside of a reasonable range of accepted values, etc.).
 
-If a user enters an invalid input, exit from the program and display a friendly message describing what went wrong and how the user can fix the problem.
+If a user does enter an invalid input, exit from the program and display a friendly message describing what went wrong and how the user can fix the problem.
 
 
 

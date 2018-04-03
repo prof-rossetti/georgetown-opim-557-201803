@@ -10,7 +10,7 @@ An example user interface using only cells to capture user inputs.
 
 ### Controls Interface
 
-An example user interface using only controls (specifically scrollbars) to capture user inputs.
+An example user interface using only controls to capture user inputs. This one happens to use only scrollbars, but you can feel free to use any other kinds of controls you'd like, as appropriate.
 
 ![a screenshot of a spreadsheet where the user can type values in blue-colored cells or slide scrollbars to choose input values](example-interfaces/controls-only.png)
 
