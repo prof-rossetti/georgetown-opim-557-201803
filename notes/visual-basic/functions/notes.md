@@ -34,6 +34,12 @@ Private Function RectangleArea(ByVal Length As Integer, ByVal Width As Integer)
 End Function
 ```
 
+```vb
+Private Function FullName(ByVal FirstName As String, ByVal LastName As String)
+  FullName = FirstName & " " & LastName
+End Function
+```
+
 These defined parameters represent variable values that are expected to be passed to the function when it is invoked.
 
 ### Invoking Functions
@@ -54,4 +60,16 @@ CustomMessage("Goodbye") ' --> "The custom message is: Goodbye"
 RectangeArea(10, 7) ' --> 70
 
 RectangeArea(2, 3) ' --> 6
+```
+
+```vb
+FullName("Ryan", "Chan") ' --> "Ryan Chan"
+
+FullName("Chan", "Ryan") ' --> "Chan Ryan"
+```
+
+As you may have noticed, parameter order is important when invoking functions. But if you'd like more flexibility, you can invoke a function using named parameters in whatever order you prefer:
+
+```vb
+FullName(LastName:="Chan", FirstName:="Ryan") ' --> "Ryan Chan"
 ```
