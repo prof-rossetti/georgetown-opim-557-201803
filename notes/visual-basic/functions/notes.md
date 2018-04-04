@@ -20,7 +20,7 @@ Also note the trailing parentheses in the function's name. They not only visuall
 
 #### Defining Functions with Parameters
 
-When necessary and appropriate, specify one or more arguments (a.k.a. "parameters"), inside the parentheses part of the function definition. The syntax for defining parameters is similar to the syntax for declaring variables, except a different keyword is used (either `ByVal` or `ByRef`). Use `ByVal` in most cases, but use `ByRef` if you need changes to the parameter to remain in memory after the function has finished execution.
+When necessary and appropriate, specify one or more arguments (a.k.a. "parameters"), inside the parentheses part of the function definition. The syntax for defining parameters is similar to the syntax for declaring variables, except a different keyword is used (either `ByVal` or `ByRef`). Use `ByVal` in most cases, but use `ByRef` if you need changes to the parameter to remain in memory after the function has finished execution. If you're curious, after you finish this document, take a look at an example illustrating the [differences between `ByVal` and `ByRef`](byval-vs-byref.md).
 
 ```vb
 Private Function CustomMessage(ByVal SomeMessage As String)

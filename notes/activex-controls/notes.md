@@ -37,6 +37,21 @@ Many controls have a `LinkedCell` property which bidirectionally associates that
 
 Certain "choose from a list" controls have a property called `ListFillRange` which specifies a range of cells to populate the control's selectable options.
 
+### Referencing Properties Programmatically
+
+Programmatically reference control properties:
+
+```vb
+CommandButton1.Caption ' or Worksheets("Sheet1").CommandButton1.Caption
+ComboBox1.Value ' or Worksheets("Sheet1").ComboBox1.Value
+ListBox1.Value ' or Worksheets("Sheet1").ListBox1.Value
+SpinButton1.Value ' or Worksheets("Sheet1").SpinButton1.Value
+ScrollBar1.Value ' or Worksheets("Sheet1").ScrollBar1.Value
+ToggleButton1.Value ' or Worksheets("Sheet1").ToggleButton1.Value
+OptionButton1.Value ' or Worksheets("Sheet1").OptionButton1.Value
+CheckBox1.Value ' or Worksheets("Sheet1").CheckBox1.Value
+```
+
 ## Events
 
 Most controls respond to `Click` events. Some also respond to `Change` events.
