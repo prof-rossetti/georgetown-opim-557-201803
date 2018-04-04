@@ -160,10 +160,9 @@ Submissions will be evaluated based on ability to meet each of the component req
 
 Category | Weight
 --- | ---
-File Naming | 4%
 Information Requirements | 30%
 Interface Requirements | 25%
-Validation Requirements | 21%
+Validation Requirements | 25%
 Calculation Requirements | 20%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process. 
