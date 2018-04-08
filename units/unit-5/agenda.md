@@ -3,11 +3,11 @@
 ## A-Side
 
   + Introducing the [Executive Dashboard](/projects/exec-dashboard/project.md) Project
-  + VBA Programming:
-    + [Processing data from CSV files](/notes/visual-basic/processing-csv-files/notes.md)
+  + Processing data from CSV files
   + MS Excel Objects:
-    + Opening and Closing [Workbooks](/notes/excel-objects/workbooks/notes.md#opening-and-closing-workbooks)
-    + [Pivot Tables](/notes/excel-objects/pivot-tables/notes.md) and the Pivot Cache
+    + [Opening and Closing Workbooks](/notes/excel-objects/workbooks/notes.md#opening-and-closing-workbooks)
+    + [Copying Ranges](/notes/visual-basic/ranges/notes.md#copying-ranges)
+    + [Pivot Tables and the Pivot Cache](/notes/excel-objects/pivot-tables/notes.md)
     + [Chart Objects](/notes/excel-objects/chart-objects/notes.md)
 
 ## B-Side
