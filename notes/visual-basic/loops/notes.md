@@ -24,7 +24,7 @@ To programmatically exit from a `Do` loop, use the statement `Exit Do`. To progr
 
 This kind of loop will continue **as long as** a certain logical condition is met. In other words, it will stop when the condition is no longer being met.
 
-```vba
+```vb
 Dim Counter As Integer
 Counter = 1
 
@@ -38,7 +38,7 @@ Loop
 
 This kind of loop will continue **until** a certain logical condition is met. In other words, it will stop when the condition is met.
 
-```vba
+```vb
 Dim Counter As Integer
 Counter = 1
 
@@ -52,7 +52,7 @@ Loop
 
 This kind of loop will repeat a statement a specific amount of times. The counter incrementing mechanism is built-in to the loop's syntax.
 
-```vba
+```vb
 Dim Counter As Integer
 
 For Counter = 1 To 5 ' specify the number of times this loop will repeat

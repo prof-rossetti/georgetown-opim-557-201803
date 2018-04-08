@@ -18,3 +18,17 @@ To activate a given workbook:
 Workbooks("mybook.xlsm").Activate
 ```
 
+### Opening and Closing Workbooks
+
+To open a workbook, try using `Application.Workbooks.Open()`:
+
+```vb
+Dim MyWorkbook As Workbook
+Set MyWorkbook = Application.Workbooks.Open(SomeFileName) ' where SomeFileName is the path of a local file openable by MS Excel
+```
+
+To close a workbook:
+
+```vb
+MyWorkbook.Close
+```
