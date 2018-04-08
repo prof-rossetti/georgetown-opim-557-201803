@@ -27,13 +27,13 @@ Dim MyWorkbook As Workbook
 Set MyWorkbook = Application.Workbooks.Open(SomeFileName) ' where SomeFileName is the path of a local file openable by MS Excel
 ```
 
+> Note: pay careful attention to which workbook is considered "active" when dealing with multiple workbooks at the same time.
+
 To close a workbook:
 
 ```vb
 MyWorkbook.Close
 ```
-
-> Note: pay careful attention to which workbook is considered "active" when dealing with multiple workbooks at the same time.
 
 #### Selecting Files to Open
 
