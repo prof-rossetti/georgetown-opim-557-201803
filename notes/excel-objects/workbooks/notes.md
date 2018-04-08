@@ -37,7 +37,7 @@ MyWorkbook.Close
 
 #### Selecting Files to Open
 
-You might want to use the `Application.Workbooks.Open()` method in conjunction with the [`Application.GetOpenFilename()` method](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/application-getopenfilename-method-excel) method to allow the user to select an existing file and ensure a proper file name:
+When opening workbooks and CSV files, you might want to use the [`Application.GetOpenFilename()` method](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/application-getopenfilename-method-excel) to allow the user to select an existing file and ensure a proper file name gets passed to `Application.Workbooks.Open()`:
 
 ```vb
 Dim SelectedFileName As String
