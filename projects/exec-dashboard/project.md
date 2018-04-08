@@ -17,7 +17,7 @@ Create a new macro-enabled workbook named **`netid`-exec-dash.xlsm**, where `net
 
 Rename the first sheet to "Interface". Create a new blank worksheet called "Data" and another called "Dashboard".
 
-Download the [example monthly sales CSV files](data/) for use during the development process. Your submission should be able to process any of these CSV files in any order. And the professor will use a similar file when evaluating your submission. The expected CSV headers for any of these files are: `date`, `product`, `unit price`, `units sold`, and `sales price`, in that order, assumed to exist on the very first row in the CSV file.
+Download the [example monthly sales CSV files](data/) for use during the development process. Your submission should be able to process any of these CSV files in any order. The expected CSV headers for any of these files are: `date`, `product`, `unit price`, `units sold`, and `sales price`, in that order, assumed to exist on the very first row in the CSV file. The professor will use similar files when evaluating your submission.
 
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
@@ -69,13 +69,13 @@ The final versions of these information outputs should appear on the "Dashboard"
 
   1. Total monthly sales for the business, equivalent to the sum of total monthly sales for each product, formatted as USD with a dollar sign and two decimal places (e.g. "Total Monthly Sales: $12,000.71").
   2. A list of the top selling products, and total monthly sales for each, formatted as USD with a dollar sign and two decimal places (e.g. "Button-Down Shirt: $6,960.35", "Super Soft Hoodie: $1,875.00", etc.).
-  3. At least one visual chart or graph depicting this or related information to support the project objectives. The title of at least one chart should include a textual representation of the selected month (e.g. "March 2018")
+  3. At least one visual chart or graph depicting this or related information to support the project objectives. The title of at least one chart should include a textual representation of the respective month (e.g. "March 2018"), which should update based on whichever file was imported.
 
 ![a screenshot of a pivot table summary and a corresponding chart depicting top-selling products](example-dashboard-march.png)
 
-> Hint: try manually configuring a Pivot Table and corresponding Pivot Chart, and just update the underlying data source (Pivot Cache) each time after importing new data.
+> Hint: try manually configuring a Pivot Table and corresponding Pivot Chart after you import data for the first time, and write code to update the underlying data source (Pivot Cache) on subsequent imports.
 
-All price-related information (e.g. unit prices and sales prices) should be formatted as USD, with a dollar sign and two decimal places. This includes cell values on the "Data" sheet, and any charts, tables and/or graphs on the "Dashboard" sheet.
+> Note: Wherever price-related information (e.g. unit prices and sales prices) appears in the workbook, it should be formatted as USD, with a dollar sign and two decimal places. This includes in cell values on the "Data" sheet, and in charts, tables, and graphs on the "Dashboard" sheet.
 
 ## Submission Instructions
 
@@ -98,4 +98,4 @@ Information Output Requirements | 30%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-The professor reserves the right to award extra credit in recognition of particularly effective user experiences. Common elements that may be eligible for extra credit include: simplicity of user interface, clarity of user instructions, and exceeding basic expectations set forth here for auto-updating charts and graphics.
+The professor reserves the right to award extra credit in recognition of particularly effective user experiences. Common elements that may be eligible for extra credit include: simplicity of user interface, clarity of user instructions, and exceeding basic expectations set forth here for auto-updating charts and graphics. Also eligible for extra credit are submissions which expand the scope of this project to import multiple monthly sales files and compare sales across months.
