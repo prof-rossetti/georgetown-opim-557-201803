@@ -21,6 +21,14 @@ Worksheets("Sheet1").Range("A1").Value ' --> "Hello from Sheet 1"
 Worksheets("Sheet2").Range("A1").Value ' --> "Hello from Sheet 2"
 ```
 
+To detect the range of used cells on any given sheet, reference the `UsedRange` property:
+
+```vb
+Worksheets("Sheet1").UsedRange.Address ' --> $A$1:$L$36
+```
+
+> Warning: if a cell looks empty (i.e. it has no contents) but contains formatting, it will still be included in the `UsedRange`.
+
 ### Writing Values
 
 To write a value to a cell:

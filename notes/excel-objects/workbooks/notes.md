@@ -20,7 +20,7 @@ Workbooks("mybook.xlsm").Activate
 
 ### Opening and Closing Workbooks
 
-To open a workbook, try using `Application.Workbooks.Open()`:
+To open a workbook, try using the in [`Application.Workbooks.Open()` method](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/workbooks-open-method-excel):
 
 ```vb
 Dim MyWorkbook As Workbook
@@ -32,3 +32,21 @@ To close a workbook:
 ```vb
 MyWorkbook.Close
 ```
+
+> Note: pay careful attention to which workbook is considered "active" when dealing with multiple workbooks at the same time.
+
+#### Selecting Files to Open
+
+You might want to use the `Application.Workbooks.Open()` method in conjunction with the [`Application.GetOpenFilename()` method](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/application-getopenfilename-method-excel) method to allow the user to select an existing file and ensure a proper file name:
+
+```vb
+Dim SelectedFileName As String
+SelectedFileName = Application.GetOpenFilename("Text Files (*.csv),*.csv", , "Please select a CSV file representing monthly sales data...")
+
+Dim MyWorkbook As Workbook
+Set MyWorkbook = Application.Workbooks.Open(SelectedFileName)
+```
+
+> Note: This method accepts a "file filter" as its first parameter and a dialogue box title as its third parameter. Two common file filters you may need to use include: `"Text Files (*.csv),*.csv"` and `"Text files (*.xlsx),*.xlsx"`.
+
+> Note: If the user presses "Cancel" instead of selecting a file, the resulting return value will be `False` or `"False"` instead of the file name.
