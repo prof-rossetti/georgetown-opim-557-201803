@@ -15,7 +15,7 @@ Worksheets("Sheet1").ChartObjects(1).Chart.ChartTitle.Text ' --> My Pie Chart
 Worksheets("Sheet1").ChartObjects(1).Chart.ChartType ' --> 5 (number corresponds to a Pie Chart)
 ```
 
-For reference when using the `ChartType` property, see this [list of Chart Types](https://msdn.microsoft.com/en-us/VBA/Excel-VBA/articles/xlcharttype-enumeration-excel).
+When using the `ChartType` property, reference this list of corresponding [Chart Types](https://msdn.microsoft.com/en-us/VBA/Excel-VBA/articles/xlcharttype-enumeration-excel).
 
 Once you have learned about loops, you can loop through each chart in the collection:
 
