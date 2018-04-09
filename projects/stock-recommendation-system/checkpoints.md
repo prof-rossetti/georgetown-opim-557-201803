@@ -28,11 +28,14 @@ If you choose the latter approach, start with Checkpoint 1 and 2. Then download 
 
 #### Checkpoint 2: Validate User Inputs
 
-At this point it is not feasible to know whether or not the stock symbol input represents a real publicly-traded company. But do your best to perform some basic preliminary validations on the stock symbol, like making sure it is not numeric in nature, and making sure it resembles a stock symbol (i.e. less than around 6 characters, and no spaces). Hint: review the [documentation for string functions](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/functions/string-functions) to find one that will count the number of characters in a given string.
+At this point it is not feasible to know whether or not the stock symbol input represents a real publicly-traded company. But do your best to perform some basic preliminary validations on the stock symbol, like making sure it is not numeric in nature, and making sure it resembles a stock symbol (i.e. less than around 6 characters, and no spaces).
+
+> Hint: review the [documentation for string functions](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/functions/string-functions) to find one that will count the number of characters in a given string.
 
 If the input doesn't pass validations, display a message box to the user to help them fix the error, and stop the program's execution. Otherwise, optionally display a message box to let the user know the input has passed initial validations.
 
 ![a screenshot showing a numeric user input and a message box instructing the user to input a stock symbol](example-preliminary-input-validation.png)
+
 
 > NOTE: Prevention of unnecessary requests helps save resources (i.e. computer processing time and costs) for both your program and the API server. This respectful best practice is most likely appreciated by the API developers :smiley:.
 
@@ -52,15 +55,17 @@ If the input doesn't pass validations, display a message box to the user to help
 #### Checkpoint 5: Handle Response Errors
 
   1. Try issuing a request using a stock symbol you know doesn't exist, maybe something like "OOPS" or "GGGG". See what kind of response comes back.
-  2. Create a validation which determines whether the response is successful or not. It should parse the response text for some identifying characteristic that differentiates an error response from a successful response. Hint: perhaps use the `InStr()` function to check whether or not the response text includes the words "Error Message". If the response is an error, display a friendly error message and stop the program's execution. Otherwise allow the program to continue.
+  2. Create a validation which determines whether the response is successful or not. It should parse the response text for some identifying characteristic that differentiates an error response from a successful response. If the response is an error, display a friendly error message and stop the program's execution. Otherwise allow the program to continue.
 
 ![a screenshot of a message box displaying the response status (200, OK) and response text (a JSON-formatted error message)](example-error-response.png)
 
 ![a screenshot of a message box displaying the a user-friendly validation message](example-response-validation.png)
 
+> Hint: perhaps use the `InStr()` function to check whether or not the response text includes the words "Error Message". :warning:
+
 #### Checkpoint 6: Write Response to Sheet
 
-  1. Manually create a new sheet to store the historical price data. Name it something like "outputs" or "stock-data".
+  1. Manually create a new sheet to store the historical price data. Name it something like "Data".
   2. Parse the response text, which will be a CSV formatted string as long as you made the proper request. Use loops and arrays to write the corresponding values to the output sheet.
 
 ![a screenshot of a worksheet full of historical stock prices. it has columns for "timestamp", "open", "high", "low", "close", and "volume". And is has a row of corresponding values for each day.](example-output-sheet.png)

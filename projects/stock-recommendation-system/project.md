@@ -40,7 +40,7 @@ Before requesting data from the Internet, the system should first perform prelim
 
 If preliminary validations are not satisfied, the system should display a friendly error message like "Oh, expecting a properly-formed stock symbol like 'MSFT'. Please try again." and stop execution.
 
-Otherwise, if preliminary validations are satisfied, the system should proceed to issue a GET request to the AlphaVantage API to retrieve corresponding stock market data.
+Otherwise, if preliminary validations are satisfied, the system should proceed to issue a GET request to the [AlphaVantage API](https://www.alphavantage.co/documentation/) to retrieve corresponding stock market data.
 
 When the system makes an HTTP request for that stock symbol's trading data, if the stock symbol is not found or there is an error message returned by the API server, the system should display a friendly error message like "Sorry, couldn't find any trading data for that stock symbol", and it should stop program execution to allow the user to try again.
 
