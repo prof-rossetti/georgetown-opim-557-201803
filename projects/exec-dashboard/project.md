@@ -17,7 +17,7 @@ Create a new macro-enabled workbook named **`netid`-exec-dash.xlsm**, where `net
 
 Rename the first sheet to "Interface". Create a new blank worksheet called "Data" and another called "Dashboard".
 
-Download the [example monthly sales CSV files](data/) for use during the development process. Your submission should be able to process any of these CSV files in any order. The expected CSV headers for any of these files are: `date`, `product`, `unit price`, `units sold`, and `sales price`, in that order, assumed to exist on the very first row in the CSV file. The professor will use similar files when evaluating your submission.
+Download the [example monthly sales CSV files](data/) for use during the development process. Your submission should be able to process any of these CSV files in any order. The expected name for any of these files resembles "sales-`YYYYMM`.csv", where `YYYY` represents the year and `MM` represents the month number. The expected CSV headers for any of these files are: `date`, `product`, `unit price`, `units sold`, and `sales price`, in that order, assumed to exist on the very first row in the CSV file. The professor will use similar files when evaluating your submission.
 
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
@@ -75,7 +75,9 @@ The final versions of these information outputs should appear on the "Dashboard"
 
 > Hint: try manually configuring a Pivot Table and corresponding Pivot Chart after you import data for the first time, and write code to update the underlying data source (Pivot Cache) on subsequent imports.
 
-> Note: Wherever price-related information (e.g. unit prices and sales prices) appears in the workbook, it should be formatted as USD, with a dollar sign and two decimal places. This includes in cell values on the "Data" sheet, and in charts, tables, and graphs on the "Dashboard" sheet.
+> Hint: to detect the month and year, either parse the filename, or parse the imported date values.
+
+Wherever price-related information (e.g. unit prices and sales prices) appears in the workbook, it should be formatted as USD, with a dollar sign and two decimal places. This includes in cell values on the "Data" sheet, and in charts, tables, and graphs on the "Dashboard" sheet.
 
 ## Submission Instructions
 
