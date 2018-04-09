@@ -56,6 +56,8 @@ MyMessage = "Hello World" & vbNewLine & "Goodbye!"
 MsgBox(MyMessage)
 ```
 
+> Note: a new line character can be represented in VBA by any of the following: `vbLf`, `vbCrLf`, `vbCr`, and `vbNewLine`.
+
 ##### String Case
 
 Use the `UCase()`, `LCase()` and `WorksheetFunction.Proper()` functions to manipulate the case of any string:
@@ -125,5 +127,3 @@ Next ListItem
 ' --> "second"
 ' --> "third"
 ```
-
-

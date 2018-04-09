@@ -12,4 +12,6 @@
 
 ## B-Side
 
+  + Ungraded Practice Exercises:
+    + [Processing Spreadsheet Data](/exercises/processing-spreadsheet-data/exercise.md)
   + Executive Dashboard Project Support
