@@ -2,11 +2,13 @@
 
 ## Challenge
 
-Write VBA code that will process the following Comma-Separated Values (CSV) string into a corresponding spreadsheet of cells.
+Write VBA code that will process the provided Comma-Separated Values (CSV) string (`MyStr`) into a corresponding spreadsheet of cells.
 
 ## Instructions
 
-Open a new workbook, rename the first sheet to "Interface, insert on it a command button on the first sheet, and inside its click event sub-procedure, paste the code below:
+Open a new workbook, rename the first sheet to "Interface, and create a new sheet called "Data".
+
+In the "Interface" sheet, insert a command button, and inside the button's click event sub-procedure, paste the code below:
 
 ```vb
 Dim MyStr As String
@@ -22,8 +24,6 @@ MsgBox(MyStr)
 
 ' TODO: write some VBA code here!
 ```
-
-Create another sheet called "Data".
 
 Write code inside the command button's click event sub-procedure that will clear the contents of the "Data" sheet, write the desired spreadsheet output there (see below), and finally activate that sheet:
 
