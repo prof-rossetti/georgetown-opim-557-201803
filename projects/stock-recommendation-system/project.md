@@ -17,11 +17,11 @@ Create a new macro-enabled workbook named **`netid`-stock-recommendations.xlsm**
 
 For a guided walkthrough of step-by-step instructions, see the project [checkpoints](checkpoints.md).
 
-Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
+In addition to providing a good user experience, your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
-  + Information Requirements
-  + Interface Requirements
+  + Information Input Requirements
   + Validation Requirements
+  + Information Output Requirements
   + Calculation Requirements
 
 ## Information Input Requirements
