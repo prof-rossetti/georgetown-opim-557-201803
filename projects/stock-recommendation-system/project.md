@@ -84,4 +84,4 @@ Information	Output Requirements (Displays Final Recommendations) | 13%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-The professor reserves the right to award extra credit in recognition of particularly effective user experiences. Common elements that may be eligible for extra credit include: simplicity of user interface, clarity of user instructions, and exceeding basic expectations set forth here for auto-updating charts and graphics. Also eligible for extra credit are submissions which expand the scope of this project to handle multiple stock symbols and compare across stock symbols.
+The professor reserves the right to award extra credit in recognition of particularly effective user experiences. Common elements that may be eligible for extra credit include: simplicity of user interface, clarity of user instructions, and including auto-updating charts and graphics. Also eligible for extra credit are submissions which expand the scope of this project to handle multiple stock symbols and compare across stock symbols.
