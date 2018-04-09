@@ -2,11 +2,11 @@
 
 ## A-Side
 
-  + Introducing the [Retirement Savings Calculator](/projects/retirement-savings-calculator/project.md) Project
+  + Introducing the [Retirement Savings Calculator](/projects/retirement-savings-calculator/project.md) Project, including [Checkpoints](/projects/retirement-savings-calculator/checkpoints.md) and some [Example Code](/projects/retirement-savings-calculator/example-code)
   + VBA Programming:
     + [Loops](/notes/visual-basic/loops/notes.md)
     + [Arrays](/notes/visual-basic/datatypes/arrays.md)
-  
+
 ## B-Side
 
   + Handling and Validating User Inputs
@@ -14,4 +14,4 @@
     + [Input Boxes](/notes/visual-basic/input-boxes/notes.md)
     + Detection of [Datatypes](/notes/visual-basic/datatypes/notes.md) (focus on the material towards the bottom half of the page)
     + [Handling Errors](/notes/visual-basic/errors/notes.md)
-  + [Retirement Savings Calculator - Checkpoints](/projects/retirement-savings-calculator/checkpoints.md) and Support
+  + Retirement Savings Calculator and Support
