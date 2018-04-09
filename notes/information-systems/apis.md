@@ -25,7 +25,7 @@ Most of todays popular APIs are **Web Services** which accept HTTP requests at s
 
 ### Authentication
 
-Many web services require developers to first register to obtain valid credentials in the form of an **API Key** (i.e. a secret token string) and subsequently authenticate by providing the key alongside each API request.
+Many web services require developers to first register to obtain valid credentials in the form of an **API Key** (i.e. a secret token string) and subsequently authenticate by providing the key alongside each API request. This allows the service provider to understand who is issuing each request, and can help prevent or mitigate abuse of the service.
 
 ### Response Formats
 
@@ -94,3 +94,5 @@ Many APIs allow you to specify URL parameters along with your HTTP request. Thes
 Example request URL: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo.
 
 In this example, `https://www.alphavantage.co/query` is the base URL. And `function`, `symbol`, `outputsize`, and `apikey` are the names of URL parameters.
+
+> Note: you might have to register and specify your own API key if you are seeing a message like "The demo API key is for demo purposes only."
