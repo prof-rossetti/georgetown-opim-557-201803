@@ -34,6 +34,12 @@ See the [Syllabus](/syllabus-20180325.pdf) for more information about the course
   + [Executive Dashboard](/projects/exec-dashboard/project.md)
   + [Stock Trading Recommendation System](/projects/stock-recommendation-system/project.md)
 
+### Ungraded Exercises
+
+  + [Processing Spreadsheet Data](/exercises/processing-spreadsheet-data/exercise.md)
+  + [Processing CSV Strings](/exercises/processing-csv-strings/exercise.md)
+  + [Issuing Web Requests](/exercises/web-requests/exercise.md)
+
 ### Weekly Check-ins
 
 Please submit this [Check-in Form](https://goo.gl/forms/7zcXMV6TQCTVRcWw1) each week, sometime between Thursday morning and 11:59pm on Sunday.
