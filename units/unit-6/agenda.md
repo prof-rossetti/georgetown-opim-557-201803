@@ -14,6 +14,6 @@
     + [Splitting Strings](/notes/visual-basic/datatypes/strings.md#string-splitting)
     + [Arrays](/notes/visual-basic/datatypes/arrays.md)
   + Ungraded Practice Exercises:
-    + ["Processing CSV Strings" Exercise](/exercises/processing-csv-strings/exercise.md)
-    + ["Web Requests" Exercise](/exercises/web-requests/exercise.md)
+    + [Processing CSV Strings](/exercises/processing-csv-strings/exercise.md)
+    + [Issuing Web Requests](/exercises/web-requests/exercise.md)
   + Stock Recommendation System Project Support ([Checkpoints](projects/stock-recommendation-system/checkpoints.md))
