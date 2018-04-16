@@ -50,7 +50,9 @@ Else no credit.
 ## Alternate Assignment - Informational Interviews
 
 If the idea of attending business and technology community events makes you uncomfortable, or if your schedule prohibits you from attending two events before the end of the semester,
- you have another option. You may substitute one meetup event with two informational interviews of some active member within the business and technology community. Conduct two interviews to be eligible for 80%. Conduct three interviews to be eligible for 100%.
+ you have another option. You may substitute one meetup event with **two** informational interviews of some active member within the business and technology community. Absent any event attendance, conduct two interviews to be eligible for 80%, or conduct three interviews to be eligible for 100%. 
+ 
+> For evening students only (Section 41): you may substitute one meetup event with **one** informational interview to be eligible for full credit. Absent any event attendance, conduct two interviews to be eligible for 80%, or conduct three interviews to be eligible for 100%.
 
 After each interview, write a short (1-2 page) summary of your experiences,
 to address at least the following questions:
