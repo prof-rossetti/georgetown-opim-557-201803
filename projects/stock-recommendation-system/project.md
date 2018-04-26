@@ -36,7 +36,7 @@ After entering desired inputs, the user should be able to click a command button
 
 ## Validation Requirements
 
-Before requesting data from the Internet, the system should first perform preliminary validations on user inputs. For example, it should ensure stock symbols are `String` datatypes and less than around six characters long.
+Before requesting data from the Internet, the system should first perform preliminary validations on user inputs. For example, it should ensure stock symbols are a reasonable amount of characters in length and not numeric in nature.
 
 If preliminary validations are not satisfied, the system should display a friendly error message like "Oh, expecting a properly-formed stock symbol like 'MSFT'. Please try again." and stop execution.
 
@@ -48,7 +48,7 @@ When the system makes an HTTP request for that stock symbol's trading data, if t
 
 After receiving an API response, the system should write historical stock prices to one or more worksheet(s). If the system processes only a single stock symbol at a time, the system may use a single sheet named something like "Data". Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding worksheet that is named after the stock symbol. If writing multiple sheets of data, the system should have a way of cleaning-up to prevent uncontrolled proliferation of new sheets.
 
-After writing historical data to a spreadsheet, the system should perform calculations (see "Calculation Requirements" section below) to produce a recommendation as to whether or not the client should buy the stock, and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale). The final recommendations can be displayed using your choice of output mechanism, whether it be cell values, message boxes, or some other means. Importantly, the program must also tell the user **why** it made the given recommendation. 
+After writing historical data to a spreadsheet, the system should perform calculations (see "Calculation Requirements" section below) to produce a recommendation as to whether or not the client should buy the stock, and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale). The final recommendations can be displayed using your choice of output mechanism, whether it be cell values, message boxes, or some other means. Importantly, the program must also tell the user **why** it made the given recommendation.
 
 ![a screenshot of a message box showing a recommendation for the user to buy the stock](example-recommendation.png)
 
