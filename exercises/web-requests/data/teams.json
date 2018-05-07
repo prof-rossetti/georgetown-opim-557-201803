@@ -1,0 +1,7 @@
+[
+  {"city": "New York", "name": "Yankees", "league": "Major"},
+  {"city": "New York", "name": "Mets", "league": "Major"},
+  {"city": "Boston", "name": "Red Sox", "league": "Major"},
+  {"city": "Washington", "name": "Nationals", "league": "Major"},
+  {"city": "New Haven", "name": "Ravens", "league": "Minor"}
+]
