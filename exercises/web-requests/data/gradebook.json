@@ -1,6 +1,6 @@
 {
-  "downloadDate":"2018-05-10",
-  "professorId":123,
+  "downloadDate": "2018-05-10",
+  "professorId": 123,
   "students":[
     {"id": 1, "finalGrade": 76.7},
     {"id": 2, "finalGrade": 85.1},
