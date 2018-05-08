@@ -14,7 +14,7 @@ Write a VBA program which issues a GET request for this example CSV-formatted [g
 
 ## JSON Challenges
 
-:octocat: Unless you already have a preferred way of parsing JSON in VBA, let's try this open source module called [VBA-JSON](https://github.com/VBA-tools/VBA-JSON).  Installation instructions are in that repository's documentation. :octocat:
+Unless you already have a preferred way of parsing JSON in VBA, let's try this open source module called [VBA-JSON](https://github.com/VBA-tools/VBA-JSON).  Installation instructions are in that repository's documentation. :octocat:
 
 After issuing an HTTP request, if your response text looks like JSON, try parsing it using `JsonConverter.ParseJson()`:
 
